@@ -11,6 +11,7 @@ class Quiz extends Component {
     }
 
     showNextQuestion(){
+        console.log("running ShowNextQuestion from quiz.js");
         this.setState((state) => {
             return { quiz_position: state.quiz_position + 1};
         })
